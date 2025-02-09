@@ -719,4 +719,19 @@
                 no, no, no, no) But I can't make it seem Like I want you You Even if it's true (even if it's true) (You, babe) Even if it's true There's no reason to believe I'll save us now But if you really love me, say it now Why is it so hard to figure out?
                 I need you every day, believe me when I say it Like I want you You Even if it's true Even if it's true
 	</p>
+        
+        
+        <audio id="background-music" loop>
+                <source src="valentine.mp3" type="audio/mpeg">
+               oops((
+        </audio>
+        
+        <script>
+                document.addEventListener("click", function() {
+                        let audio = document.getElementById("background-music");
+                        if (audio.paused) {
+                                audio.play();
+                        }
+                }, { once: true });
+        </script>
 </body>
