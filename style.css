@@ -19,8 +19,7 @@ p {
 /* Adjustments for mobile */
 @media screen and (max-width: 600px) {
   p {
-    font-size: 10px;
-    line-height: 12px;
-    background-size: contain; /* Ensure image isn't cropped */
+    font-size: 8px;
+    line-height: 8px;
   }
 }
